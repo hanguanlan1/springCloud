@@ -16,7 +16,6 @@
 		<groupId>com.wisedu.cloud</groupId>
 		<artifactId>microservice-spring-cloud</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath />
 	</parent>
 
 	
