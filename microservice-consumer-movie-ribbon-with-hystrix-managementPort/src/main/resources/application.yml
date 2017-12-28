@@ -1,0 +1,20 @@
+management:
+  port: 8081
+spring:
+  application:
+    name: microservice-consumer-movie-ribbon-with-hystrix-managementPort
+server:
+  port: 8010
+  context-path: /ribbon
+eureka:
+  client:
+   healthcheck:
+      enabled: true
+   serviceUrl:
+      defaultZone: http://user:password@localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    metadata-map:
+        management.port: 8081
+    #home-page-url-path: /ribbon
+#hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 1000
