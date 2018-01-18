@@ -28,6 +28,7 @@
 		<module>microservice-hystrix-turbine-instanceUrlSuffix</module>
 		<module>microservice-consumer-movie-ribbon-with-hystrix-managementPort</module>
 		<module>microservice-hystrix-turbine-managementPort</module>
+		<module>microservice-gateway-zuul</module>
 	</modules>
 
 	<properties>
