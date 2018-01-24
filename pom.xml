@@ -29,6 +29,8 @@
 		<module>microservice-consumer-movie-ribbon-with-hystrix-managementPort</module>
 		<module>microservice-hystrix-turbine-managementPort</module>
 		<module>microservice-gateway-zuul</module>
+		<module>microservice-gateway-zuul-reg-exp</module>
+		<module>microservice-file-upload</module>
 	</modules>
 
 	<properties>
