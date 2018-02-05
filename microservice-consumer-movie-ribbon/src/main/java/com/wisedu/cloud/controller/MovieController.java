@@ -52,4 +52,9 @@ public class MovieController {
 		}
 		return userList;
 	}
+	
+	@GetMapping("/sidecar")
+	public String sidecar() {
+		return restTemplate.getForObject("http://microservice-sidecar/", String.class);
+	}
 }
