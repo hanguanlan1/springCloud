@@ -1,0 +1,13 @@
+server:
+  port: 8070
+spring:
+  application:
+    name: microservice-sidecar
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 60000
+sidecar:
+  port: 8060
+  health-uri: http://localhost:8060/health.json
+    
