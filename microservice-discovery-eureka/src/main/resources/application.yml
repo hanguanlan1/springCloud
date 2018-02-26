@@ -1,9 +1,9 @@
-#security:
-#  basic:
-#    enabled: true
-#  user:
-#      name: user 
-#      password: password
+security:
+  basic:
+    enabled: true
+  user:
+      name: user 
+      password: password123
 server:
   port: 8761                    
 eureka:
